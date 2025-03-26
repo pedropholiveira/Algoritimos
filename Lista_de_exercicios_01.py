@@ -37,21 +37,32 @@
 # Faça um programa em python que converte temperaturas expressas em graus celcius para graus kelvin. Seu programa deve solicitar a digitação
 # do valor a ser convertido (c). A relação entre graus celsius e grau kelvin é c= k-273,15
 
-print("Programa para a conversão de temperaturas C° p/ K° ")
+# print("Programa para a conversão de temperaturas C° p/ K° ")
 
-try:
-    tempc = float(input("Insira o valor da temperatura em graus Celsius: "))
-except ValueError:
-    print('O valor inserido deve ser um numero!! ')
-else:
-    print("A temperatura inserida em gruas celsius é ", tempc,
-          " e seu valor correspondente em graus kelvin é ", (tempc+273.15))
+# try:
+#     tempc = float(input("Insira o valor da temperatura em graus Celsius: "))
+# except ValueError:
+#     print('O valor inserido deve ser um numero!! ')
+# else:
+#     print("A temperatura inserida em gruas celsius é ", tempc,
+#           " e seu valor correspondente em graus kelvin é ", (tempc+273.15))
 
 # <--------------------------------------------------------------------------------------------------------------->
 
 
-# EXERCICIO
+# EXERCICIO4
+# Faça um programa em python que converte temperaturas expressas em graus kelvin para graus celsius. Seu programa deve solicitar a digitação do valor a ser
+# convertido (k). A relação entre graus celsius e graus kelvin é c=k-273,15
 
+print("Programa para a conversão de k° para c°")
+
+try:
+    tempk = float(input("Insira o valor da temperatura em graus Kelvin: "))
+except ValueError:
+    print("O valor inserido deve ser um um numero! ")
+else:
+    print("A temperatura inserida em graus kelvin foi de ", tempk,
+          "e seu valor correspondente em graus celsius é de ", tempk-273.15)
 
 # <--------------------------------------------------------------------------------------------------------------->
 # EXERCICIO
