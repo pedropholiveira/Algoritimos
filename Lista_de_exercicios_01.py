@@ -54,19 +54,30 @@
 # Faça um programa em python que converte temperaturas expressas em graus kelvin para graus celsius. Seu programa deve solicitar a digitação do valor a ser
 # convertido (k). A relação entre graus celsius e graus kelvin é c=k-273,15
 
-print("Programa para a conversão de k° para c°")
+# print("Programa para a conversão de k° para c°")
 
-try:
-    tempk = float(input("Insira o valor da temperatura em graus Kelvin: "))
-except ValueError:
-    print("O valor inserido deve ser um um numero! ")
-else:
-    print("A temperatura inserida em graus kelvin foi de ", tempk,
-          "e seu valor correspondente em graus celsius é de ", tempk-273.15)
+# try:
+#     tempk = float(input("Insira o valor da temperatura em graus Kelvin: "))
+# except ValueError:
+#     print("O valor inserido deve ser um um numero! ")
+# else:
+#     print("A temperatura inserida em graus kelvin foi de ", tempk,
+#           "e seu valor correspondente em graus celsius é de ", tempk-273.15)
 
 # <--------------------------------------------------------------------------------------------------------------->
-# EXERCICIO
+# EXERCICIO5
+# Faça um programa em pythin que converte temeperaturas expressas em graus celsius para graus rankine. seu programa
+# deve solicitar a digitação do valor a ser convertido (C). A relação entre graus celsius e graus rankine é c=(r/1.8)-491,97
 
+print("Programa para conversão de graus celsius rankine para graus celsius")
+
+try:
+    tempr = float(input("Insira o valor da temperatura em graus Rankine: "))
+except ValueError:
+    print("O valor inserido deve ser um numero!!!")
+else:
+    print('O valor inserido em graus Rankine foi de ', tempr,
+          " e seu valor correspondente em graus celcius é ", (tempr-491.67)*5/9)
 
 # <--------------------------------------------------------------------------------------------------------------->
 # EXERCICIO
