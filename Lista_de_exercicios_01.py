@@ -374,22 +374,161 @@
 
 # <--------------------------------------------------------------------------------------------------------------->
 
-# EXERCICIO
+# EXERCICIO21
+# Faça um programa em python que calcula a area em centimetros quadadros de um retangulo. Seu programa deve
+# solicitar a digitação da medida em centimetros do lado menor(m) e do lado maior(M) do retangulo. A relação entre grandezas é area=m*M
+
+# print("Programa para calculo de area de retangulos ")
+
+# try:
+#     m = float(input("Insira a medida do lado menor do retangulo em cm: "))
+# except ValueError:
+#     print("O valor inserido deve ser um valor numerico!! ")
+# else:
+#     try:
+#         M = float(input("Insira a medida do maior lado do retangulo em cm: "))
+#     except ValueError:
+#         print("O valor inserido deve ser um numero!!")
+#     else:
+#         print("A area do retangulo mede ", m*M, " cm²")
+
+# <--------------------------------------------------------------------------------------------------------------->
+
+# EXERCICIO22
+# Faça um programa em python que calcula a area em centimetros quadrados de
+# um losango/paralelogramo. Seu programa deve solicitar a digitação da medida em centimetros
+# da diagonal menor (d) e da diagonal maior (D) do losango. A relação entre essas grandezas é area=(d*D)/2
+
+# print("Programa para calculo de area de losango/paralelogramo")
+
+# try:
+#     D = float(
+#         input("Insira a medida da maior diagonal do losango/paralelogramo em cm: "))
+# except ValueError:
+#     print("O valo inserido precisa ser numerico!! ")
+# else:
+#     try:
+#         d = float(
+#             input("Insira a medida da menor diagonal do losango/paralelogramo em cm: "))
+#     except ValueError:
+#         print("O valor inserido precisa ser numerico!! ")
+#     else:
+#         print("A area do losango/paralelogramo mede ", (d*D)/2, " cm²")
 
 
 # <--------------------------------------------------------------------------------------------------------------->
 
-# EXERCICIO
+# EXERCICIO23
+# Faça um programa em python que calcula a
+# area em centimetros quadrados de um trapézio. Seu programa deve
+# solicitar a digitação da medida em centimetros da base menor (b), da base
+# maior (B) e daaltura (A) do trpézio. A relação entre essas grandezas é area= ((b+B)*A)/2
+
+# print("Programa para calculo de area de trapézios")
+
+# try:
+#     b = float(input("Insira a medida da base menor do trapezio em cm: "))
+# except ValueError:
+#     print("O valor inserido deve ser numerico!")
+# else:
+#     try:
+#         B = float(input("Insira a medida da base maior do trapezio em cm: "))
+#     except ValueError:
+#         print("O valor inserido deve ser numerico!")
+#     else:
+#         try:
+#             a = float(input("Insira a medida da altura do trapezio em cm: "))
+#         except ValueError:
+#             print("O valor inserido deve ser numerico! ")
+#         else:
+#             print("A area do trapézio mede ", ((b+B)*a)/2)
 
 
 # <--------------------------------------------------------------------------------------------------------------->
 
-# EXERCICIO
+# EXERCICIO24
+# Faça um programa em python que calcula a area em centimetros
+# quadrados de um poligono regular. Seu programa deve solicitar a digitação
+# da quantidade de lados (Q) do poligono, bem como da medida em centimetros de
+# sua base (B) e de sua apótema (A), ou seja, a reta imaginaria que
+# une seu centro ao meio de sua base. A relação entre essas grandezas é area =(Q.B.A)/2
+
+# print("programa para calculo de area de poligonos regulares")
+
+# try:
+#     q = int(input("Informe a quantidade de lados que o poligono tem: "))
+# except ValueError:
+#     print("O valor digitado deve ser numerico !!")
+# else:
+#     try:
+#         b = float(input("Insira a medida da base em cm: "))
+#     except ValueError:
+#         print("O valor inserido deve ser numerico!")
+#     else:
+#         try:
+#             a = float(input("Insira a medida da apotema em cm: "))
+#         except ValueError:
+#             print("O valor inserido deve ser numerico ")
+#         else:
+#             print("A area do poligono regular mede ", (q*b*a)/2)
 
 
 # <--------------------------------------------------------------------------------------------------------------->
 
-# EXERCICIO
+# EXERCICIO25
+# Faça um programa em python que calcula a area em
+# centimetros quadrados de um circulo. A relação entre essas grandezas
+# é area=piR², sendo pi constante e aproximadamente 3,1415
+
+# print("Programa para calculo de area de circunferencias")
+
+# try:
+#     r = float(input("insira a medida do raio da circunferencia em cm: "))
+# except ValueError:
+#     print("O valor inserido precisa ser numerico! ")
+# else:
+#     print("A medida da area da circunferencia é de ", 3.1415*r**2)
 
 
+# <--------------------------------------------------------------------------------------------------------------->
+
+# EXERCICIO26
+# Faça um programa em python que calcula o indeice de massa corporal (ou BMI, body mass index) de
+# uma pessoa. Seu programa deve solicitar a digitação do peso em kilogramas (p) da pessoa, bem
+# como de sua altura em metros (A). O BMI é dado pelo peso dividido pelo quadrado da altura.all
+
+# print("programa para o calculo de indice de massa corporal ")
+
+# try:
+#     peso = float(input("Insira seu peso em Kg: "))
+# except ValueError:
+#     print("O valor inserido deve ser numerico natural")
+# else:
+#     try:
+#         altura = float(input("Informe sua altura em metros: "))
+#     except ValueError:
+#         print("O valor inserido prescia ser numerico ")
+#     else:
+#         print("Seu indice de massa corporal é de ", (peso)/(altura**2))
+
+# <--------------------------------------------------------------------------------------------------------------->
+
+# EXERCICIO27
+# Lembrando que uma equação de primeiro grau tem a forma AX+B=0 (por exempo 3,5X+2,1=0), sendo
+# A e B coeficientes reais, faça um programa em python que calcula a raiz de uma equação de primeiro
+# grau. seu programa deve solicitar a digitação do valor dos coeficientes A e B da equação.
+
+# print("programa para calculo de raiz de equação")
+
+# try:
+#     a = float(input("Insira o valor do coeficiente A: "))
+# except ValueError:
+#     print("O valor inserido deve ser numerico!! ")
+# else:
+#     try:
+#         b = float(input("Insira o valor do coeficiente B: "))
+#     except ValueError:
+#         print("O valor a ser inserido deve ser numerico!! ")
+#     else:
+#         print("A raiz da equação é", (-b)/a)
 # <--------------------------------------------------------------------------------------------------------------->
