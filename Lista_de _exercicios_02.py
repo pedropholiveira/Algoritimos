@@ -11,12 +11,35 @@
 
 # EXERCICIO28
 
-
 # <--------------------------------------------------------------------------------------------------------------->
 
-# EXERCICIO
+# EXERCICIO31
+# Faça um programa em python solicite a digitação de dois valores quaisquer, informando-os em seguida, em ordem crescente.
+print("BE VINDO A CALCULADORA DE NUMEROS CRESCENTES")
+digitou_correto = False
+while digitou_correto == False:
+    while digitou_correto == False:
+        try:
+            numero1 = float(input("insira o valor do primeiro numero: "))
+        except ValueError:
+            print("O valor deve ser numerico!!")
+        else:
+            digitou_correto = True
 
-
+    digitou_correto = False
+    while digitou_correto == False:
+        try:
+            numero2 = float(input("insira o valor do segundo numero: "))
+        except ValueError:
+            print("O valor digitado deve ser numerico!!")
+        else:
+            digitou_correto = True
+if numero1 > numero2:
+    print(numero1, ",", numero2)
+elif (numero1 < numero2):
+    print(numero2, ",", numero1)
+else:
+    print("Os valores digitados são iguais: ")
 # <--------------------------------------------------------------------------------------------------------------->
 
 # EXERCICIO
